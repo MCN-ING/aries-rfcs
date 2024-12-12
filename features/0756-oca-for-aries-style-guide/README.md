@@ -5,8 +5,8 @@
 - Since: 2023-01-05
 - Status Note: Implemented in the [Bifold Wallet](https://github.com/openwallet-foundation/bifold-wallet)
 - Supersedes: N/A
-- Start Date: 2022-11-15 
-- Version: 1.0
+- Start Date: 2022-11-15
+- Version: 1.1
 - Tags: [feature](/tags.md#feature)
 
 [RFC0755 OCA for Aries]: ../0755-oca-for-aries/README.md
@@ -180,6 +180,8 @@ The numbered items in the layouts are as follows. In the list, the OCA data elem
 10. `issued_date_attribute`
     * Fallback: If tracked, the date the credential was received by the Holder, else empty.
 11. `expiry_date_attribute`
+    * Fallback: Empty
+12. Contact detail button
     * Fallback: Empty
 
 
