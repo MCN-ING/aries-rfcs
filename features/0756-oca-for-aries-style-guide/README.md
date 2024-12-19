@@ -212,7 +212,7 @@ The font color is either black or white, as determined by calculating contrast l
 
 ### Logo Image Specifications
 
-The image in the top left corner is a space for the issuer logo. This space should not be used for anything other than the issuer logo. The logo image may be masked to fit within a rounded square with varying corner radii. Thus, the logo must be a square image (aspect ratio 1:1), as noted in the table below. The background is default white, therefore logo files with a transparent background will overlay a white background.
+The image on the bottom row is a space for the issuer logo. This space should not be used for anything other than the issuer logo. The logo image may be masked to fit within a rounded square with varying corner radii. Thus, the logo must be a square image (aspect ratio 1:1), as noted in the table below. The background is default white, therefore logo files with a transparent background will overlay a white background.
 
 The following are the specifications for the credential logo for issuers. 
 
@@ -255,7 +255,7 @@ For issuers to better represent their brand, issuers may specify an image slice 
 Credential height is dependent on the content and can be unpredictable. Different languages (English, French, etc.) will add more length to names, OS level settings such as font changes or text enlargement will unpredictably change the height of the credential. The recommended image size below is suggested to accommodate for most situations. Note that since the image is top aligned, the top area of the image is certain to be displayed, while the bottom section of the image may not always be visible. 
 
 
-![alt_text](images/image6.jpg "image_tooltip")
+![alt_text](images/image6.png "image_tooltip")
 
 
 **_Figure: Examples of the image slice behavior_**
@@ -526,7 +526,7 @@ Credentials may be stacked to overlap each other to increase the number of visib
 
 ### Accessibility
 
-The alt-tags for the logo and background images come from the multilingual OCA Meta Overlay for the issuer name and credential type name. 
+The alt-tags for the logo and background images come from the multilingual OCA Meta Overlay for the issuer name and credential type name.
 
 
 ### More Variations
@@ -551,7 +551,7 @@ In coming up with this Style Guide, we consider how much control to give
 issuers, ultimately deciding that given them too much control (e.g., pixel
 precise layout of their credential) creates a usage/privacy risk (people using
 their credentials by showing them on screen, with all private data showing), is
-technical extremely difficult given the variations of holder devices, and likely
+technically extremely difficult given the variations of holder devices, and likely
 to result in a very poor user experience.
 
 A user experience group in Canada came up with the core design, and the Aries
